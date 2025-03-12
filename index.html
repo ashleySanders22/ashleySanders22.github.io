@@ -1,7 +1,134 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashley Sanders - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .navbar {
+            background-color: #0073e6;
+            padding: 15px;
+            text-align: center;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            margin: 0 15px;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background: linear-gradient(to right, #0073e6, #004080);
+            color: white;
+        }
+        .hero h1 {
+            font-size: 50px;
+            margin: 10px 0;
+        }
+        .container {
+            width: 80%;
+            max-width: 900px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #0073e6;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .contact {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
 <body>
-<h1>Hello Ty!!</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <div class="navbar">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <div class="hero">
+        <h1>Ashley Sanders</h1>
+        <p>Software Developer | AWS Certified | React Enthusiast</p>
+    </div>
+
+    <div class="container">
+        <div id="about" class="section">
+            <h2>About Me</h2>
+            <p>Passionate software developer with expertise in React and scalable web applications. Recently certified as an AWS Cloud Practitioner. I thrive in agile environments and enjoy learning new skills.</p>
+        </div>
+
+        <div id="skills" class="section">
+            <h2>Skills</h2>
+            <p><strong>Languages:</strong> React, C, JavaScript, Java, HTML, CSS, SQL</p>
+            <p><strong>Tools:</strong> AWS, Jest, Dynatrace, GitHub, Jenkins, VS Code, IntelliJ</p>
+            <p><strong>Certifications:</strong> AWS Certified Cloud Practitioner, Cisco Introduction to Packet Tracer</p>
+        </div>
+
+        <div id="experience" class="section">
+            <h2>Experience</h2>
+            <h3>Systems Analyst, BNSF Railway (Jan 2023 - Present)</h3>
+            <ul>
+                <li>Modernizing a critical scheduling web application using React, enabling more efficient planning and time
+                    management of all intermodal hub operations</li>
+                <li>Leading a team of software developers, providing code reviews and collaborative programming sessions to boost
+                    team productivity and knowledge sharing</li>
+                <li>Collaborate within an agile development environment, participating in daily stand-ups, sprint planning, and
+                    retrospectives, ensuring efficient code development and delivery</li>
+                <li>Developing advanced features such as drag and drop, alert panel, and custom context menu’s</li>
+                <li>Wrote comprehensive unit tests using Jest, leading to 70% improvement in code coverage</li>
+                <li>Refactored and enhanced the existing codebase, significantly improving both performance and maintainability,
+                resulting in a 300% increase in application responsiveness</li>
+                <li>Collaborating with product owners to gather requirements, prioritize tasks, and deliver user stories in alignment
+                    with project goals and timelines</li>
+                <li>Orchestrating production deployments using Jenkins, ensuring seamless deployment processes and minimizing
+                    downtime for end-users</li>
+                <li>Leverage Dynatrace to implement user tracking, enabling enhanced monitoring and insight into user behavior and
+                    performance metrics</li>
+            </ul>
+            <h3>Summer Intern, BNSF Railway (Jun 2022 - Aug 2022)</h3>
+            <ul>
+                <li>Built a web-based tool leveraging the Zoom API, along with JavaScript, HTML, and PowerShell, to simplify the
+                    management of Zoom rooms across campus</li>
+
+            </ul>
+        </div>
+
+        <div id="projects" class="section">
+            <h2>Projects</h2>
+            <h3>1-D Stencil Operation Analysis</h3>
+            <p>Developed and tested multiple parallel computing techniques for solving heat distribution problems.</p>
+            <h3>Matrix Multiplication Optimization</h3>
+            <p>Optimized cache performance in C-based matrix multiplication algorithms.</p>
+        </div>
+    </div>
+
+    <div id="contact" class="footer">
+        <p>Contact me: <a href="mailto:ashley.sanders2@outlook.com" style="color: #fff;">ashley.sanders2@outlook.com</a></p>
+        <p>Phone: 301-904-8711</p>
+    </div>
 </body>
 </html>
