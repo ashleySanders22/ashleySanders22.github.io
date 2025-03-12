@@ -56,6 +56,10 @@
         h2 {
             color: #0073e6;
         }
+        .date {
+            font-size: 14px;
+            color: #666;
+        }
         .section {
             margin-bottom: 30px;
         }
@@ -103,7 +107,10 @@
 
         <div id="experience" class="section">
             <h2>Experience</h2>
-            <h3>Systems Analyst, BNSF Railway (Jan 2023 - Present)</h3>
+            <div class="experience-item">
+                <h3>Systems Analyst, BNSF Railway</h3>
+                <span class="date">January 2023 - Present</span>
+            </div>
             <ul>
                 <li>Modernizing a critical scheduling web application using React, enabling more efficient planning and time
                     management of all intermodal hub operations</li>
@@ -122,7 +129,10 @@
                 <li>Leverage Dynatrace to implement user tracking, enabling enhanced monitoring and insight into user behavior and
                     performance metrics</li>
             </ul>
-            <h3>Summer Intern, BNSF Railway (Jun 2022 - Aug 2022)</h3>
+            <div class="experience-item">
+                <h3>Summer Intern, BNSF Railway</h3>
+                <span class="date">June 2022 - August 2022</span>
+            </div>
             <ul>
                 <li>Built a web-based tool leveraging the Zoom API, along with JavaScript, HTML, and PowerShell, to simplify the
                     management of Zoom rooms across campus</li>
@@ -130,11 +140,25 @@
         </div>
 
         <div id="projects" class="section">
-            <h2>Projects</h2>
-            <h3>1-D Stencil Operation Analysis</h3>
-            <p>Developed and tested multiple parallel computing techniques for solving heat distribution problems.</p>
-            <h3>Matrix Multiplication Optimization</h3>
-            <p>Optimized cache performance in C-based matrix multiplication algorithms.</p>
+            <h2>Educational Projects</h2>
+            <h3>Comparing 1-D Stencil Operation Solutions and Parallel Computing Techniques</h3>
+            <ul>
+            <li>Developed solutions to the 1-D heat distribution problem using three approaches: serial computation, pthreads,
+                and OpenMPI, in a Linux-based environment.</li>
+            <li>Conducted performance testing to evaluate and compare solutions based on execution time, speedup, and
+                efficiency across varying array sizes, thread counts, and iteration numbers.</li>
+            <li>Authored a comprehensive research paper using LaTeX to document findings, supported by detailed graphs and
+                analyses, highlighting the strengths and weaknesses of each technique to determine the optimal solution.</li>
+            </ul>
+            <h3>Comparing and Analyzing Matrix Multiplication Algorithms</h3>
+        <ul>
+            <li>Developed matrix multiplication algorithms in C, including both the Naïve and cache-blocking methods,
+                optimizing their use of cache memory for improved performance</li>
+            <li>Performed thorough testing and benchmarking of the algorithms, assessing their efficiency in terms of speedup and
+                gigaflops per second</li>
+            <li>Documented and analyzed results using LaTeX, providing detailed comparisons of algorithm performance and
+                insights into their computational efficiency</li>
+            </ul>
         </div>
     </div>
 
